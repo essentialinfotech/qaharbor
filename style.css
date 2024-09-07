@@ -67,15 +67,36 @@ h5{
     background-color: #003a6f;
 }
 
-.contact-from{
-   background-color: #f6f5f4; 
-}
+/* .parant{
+    position: relative;
+    top: 100px;
+} */
+
+
 
 .contact-div{
     display: flex;
 
 }
 
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .banner-left {
+        width: 100%;
+    }
+    .banner-right {
+        width: 100%;
+       display: none;
+    }
+    .hire-dev {
+        flex-direction: column;
+    }
+  }
 
 
 
